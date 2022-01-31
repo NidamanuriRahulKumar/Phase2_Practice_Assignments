@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" output="target/classes" path="src/main/java">
+	<classpathentry including="**/*.java" kind="src" output="target/classes" path="src/main/java">
 		<attributes>
 			<attribute name="optional" value="true"/>
 			<attribute name="maven.pomderived" value="true"/>
@@ -16,6 +16,17 @@
 			<attribute name="owner.project.facets" value="jst.web"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Program Files/Apache Software Foundation/Tomcat 9.0/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jar_files/hibernate-core-5.6.5.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jar_files/jakarta.activation-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jar_files/jakarta.xml.bind-api-3.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jar_files/javax.persistence-api-2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jar_files/javax.xml.bind.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jar_files/jaxb-core-3.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jar_files/jaxb-impl-3.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jar_files/jaxb-jxc-3.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jar_files/jaxb-xjc-3.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jar_files/jta-1_1.jar"/>
 	<classpathentry kind="lib" path="C:/Program Files (x86)/MySQL/Connector J 8.0/mysql-connector-java-8.0.28.jar"/>
 	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
 		<attributes>
